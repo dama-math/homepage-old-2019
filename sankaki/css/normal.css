@@ -1,0 +1,31 @@
+#normal{
+	--maincolor: --maincolor: #090;
+	font-size: 14pt;
+	font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", YuGothic, "ヒラギノ角ゴ ProN W3", Hiragino Kaku Gothic ProN, Arial, "メイリオ", Meiryo, sans-serif;
+}
+
+#title, #footer, h1, h2 {
+	font-family: 'Montserrat'
+}
+
+h1 {
+	font-size: 24pt;
+	padding: 0.3em;
+	border-bottom: solid 3px var(--maincolor);
+	margin-bottom: 30px;
+}
+h2 {
+	position: relative;
+	font-size: 18pt;
+	padding: 0.3em;
+	padding-left: 1.6em;
+}
+h2:before{ font-family: "Font Awesome 5 Free";
+	content: "\f111";
+	position: absolute;
+	font-size: 1em;
+	padding: 0.3em;
+	left: 0;
+	top: 0.1em;
+	color: var(--maincolor);
+}

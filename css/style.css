@@ -1,0 +1,124 @@
+body {
+	font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", YuGothic, "ヒラギノ角ゴ ProN W3", Hiragino Kaku Gothic ProN, Arial, "メイリオ", Meiryo, sans-serif;
+	width: 1006px;
+	margin: auto;
+	margin-top: 20px;
+	border: solid 3px #331a00;
+}
+
+#title, #footer, #nav li, h1, h2 {
+	font-family: 'Montserrat'
+}
+
+#title {
+	font-size: 40pt;
+	color: #fff;
+	text-align: center;
+	font-weight: bold;
+	background-color: #090;
+	padding: 40px 20px;
+}
+
+#main {
+	font-size: 14pt;
+	margin: 30px;
+}
+
+h1 {
+	font-size: 24pt;
+	padding: 0.3em;
+	border-bottom: solid 3px #090;
+	margin-bottom: 30px;
+}
+h2 {
+	position: relative;
+	font-size: 18pt;
+	padding: 0.3em;
+	padding-left: 1.6em;
+}
+h2:before{ font-family: "Font Awesome 5 Free";
+	content: "\f111";
+	position: absolute;
+	font-size: 1em;
+	padding: 0.3em;
+	left: 0;
+	top: 0.1em;
+	color: #090; /*アイコン色*/
+}
+#main p {
+	margin: 0 20px 20px 0;
+	margin-left: 20px;
+	margin-bottom: 20px;
+}
+
+#nav {
+	list-style: none;
+	font-size: 0;
+	padding: 0;
+}
+#nav li {
+	width: 250px;
+	padding: 20px;
+	text-align: center;
+	background-color: #331a00;
+	display: inline-block;
+	font-size: 24px;
+}
+#nav li a {
+	text-decoration: none;
+	color: #fff;
+	font-weight: bold;
+}
+#nav li a:hover {
+	color: #ff0;
+}
+#icon {
+	float: right;
+	width: 200px;
+	margin: 0 20px;
+}
+
+#footer {
+	color: #fff;
+	font-size: 13pt;
+	margin-top: 100px;
+	padding: 20px;
+	background-color: #331a00;
+	text-align: right;
+}
+
+#footer p {
+	display: inline-block;
+}
+#SNSicon {
+	display: inline-block;
+	margin-left: 50px;
+}
+
+.myicon {
+	color: #fff;
+}
+.done, .doing, .yet {
+	font-size: 1.3em;
+}
+.done {
+	color: #0c0;
+}
+.doing {
+	color: #db0;
+}
+.yet {
+	color: #c00;
+}
+table {
+	border-collapse: collapse;
+	margin-top: 20px;
+	margin-left: 50px;
+	text-align: center;
+	font-size: 14pt;
+}
+
+table td {
+	border: solid 1px #331a00;
+	padding: 0.5em;
+}

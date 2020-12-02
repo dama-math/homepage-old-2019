@@ -1,0 +1,53 @@
+body {
+	width: 1006px;
+	margin: auto;
+	margin-top: 20px;
+	border: solid 3px #331a00;
+}
+
+#title {
+	font-size: 40pt;
+	color: #fff;
+	text-align: center;
+	font-weight: bold;
+	background-color: var(--maincolor);
+	padding: 40px 20px;
+}
+
+#main {
+	margin: 30px;
+}
+
+#main p {
+	margin: 0 20px 20px 0;
+	margin-left: 20px;
+	margin-bottom: 20px;
+}
+
+#icon {
+	float: right;
+	width: 200px;
+	margin: 0 20px;
+}
+
+#footer {
+	color: #fff;
+	font-size: 13pt;
+	margin-top: 100px;
+	padding: 20px;
+	background-color: #331a00;
+	text-align: right;
+}
+
+#footer p {
+	display: inline-block;
+}
+
+#SNSicon {
+	display: inline-block;
+	margin-left: 50px;
+}
+
+.myicon {
+	color: #fff;
+}
